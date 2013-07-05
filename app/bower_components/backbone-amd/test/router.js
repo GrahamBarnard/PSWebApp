@@ -87,7 +87,7 @@ $(document).ready(function() {
       "*first/complex-*part/*rest": "complex",
       ":entity?*args":              "query",
       "function/:value":            ExternalObject.routingFunction,
-      "*anything":                  "anything"
+      "*anything":                  "anything",
     },
 
     initialize : function(options) {

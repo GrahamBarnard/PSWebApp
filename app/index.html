@@ -16,21 +16,29 @@
         <!-- endbuild -->
     </head>
     <body>
-        <div class="container">
-            <div class="hero-unit">
-                <h1>'Allo, 'Allo!</h1>
-                <p>You now have</p>
-                <ul>
-                    <li>HTML5 Boilerplate</li>
-                    <li>jQuery</li>
-                    <li>Backbone.js</li>
-                    <li>Underscore.js</li>
-                    <li>RequireJS</li>
-                    <li>Twitter Bootstrap</li>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">
+              <a class="brand" href="./index.html">Party Stream</a>
+              <div class="nav-collapse collapse">
+                <ul class="nav">
+                  <li><a href="#login">Login</a></li>
+                  <li><a href="#user">Users</a></li>
+                  <li><a href="#events">Events</a></li>
+                  <li><a href="#photos">Photos</a></li>
                 </ul>
-                <p>installed.</p>
+              </div>
             </div>
-        </div>
+          </div>
+
+        <section>
+            <div class="container">
+                <div id="login"></div>
+                <div id="user"></div>
+                <div id="events"></div>
+                <div id="photos"></div>
+            </div>
+        </section>
 
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>

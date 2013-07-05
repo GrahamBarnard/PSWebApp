@@ -1,5 +1,4 @@
 /*global define*/
-
 define([
     'underscore',
     'backbone',
@@ -8,8 +7,9 @@ define([
     'use strict';
 
     var EventCollection = Backbone.Collection.extend({
-        model: EventModel
-    });
+        model: EventModel,
+        url: 'http://localhost:5000/users/1/events' 
+    }); 
 
     return EventCollection;
 });

@@ -9,6 +9,7 @@ define([
 
     var UserCollection = Backbone.Collection.extend({
         model: UserModel
+        url: "http://localhost:5000/users"
     });
 
     return UserCollection;
